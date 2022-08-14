@@ -1,0 +1,38 @@
+{
+  "name": "react-seed",
+  "author": "https://github.com/samwato",
+  "description": "React boilerplate with esbuild",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "^16"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc && ./scripts/build.js",
+    "start": "./scripts/start.js",
+    "type": "tsc",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "tsc && jest ."
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^28.1.6",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "esbuild": "^0.14.43",
+    "esbuild-jest": "^0.5.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "typescript": "^4.7.3"
+  }
+}

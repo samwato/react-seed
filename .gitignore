@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+
+# Build files
+public/*
+!public/index.html
+
+# Environment variables
+.env
+
+# Misc
+.DS_Store
+.idea
+*.swp
