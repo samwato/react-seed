@@ -1,11 +1,13 @@
-# react-seed
+# React Seed
 Basic repo configuration for a React project
 
-- [x] esbuild + serve
-- [x] eslint
-- [x] tsconfig
+- [x] Esbuild
+- [x] Live Reload
 - [x] public/index.html
-- [x] testing configured
-- [ ] esbuild configuration for css styles
-- [x] esbuild live reload using SSE events
-- [ ] Docker setup
+- [x] Eslint
+- [x] Typescript
+- [x] Testing
+
+## Todo
+- [ ] @emotion
+- [ ] Docker
