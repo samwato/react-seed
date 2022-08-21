@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc && ./scripts/build.js",
-    "start": "./scripts/start.js",
+    "start": "PORT=8443 ./scripts/start.js",
     "type": "tsc",
     "lint": "eslint .",
     "fix": "eslint --fix .",
